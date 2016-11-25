@@ -21,7 +21,7 @@ docker run \
   --env="DISPLAY" \
   --env="QT_X11_NO_MITSHM=1" \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-  coverage-search
+  pjakubowski/coverage-search
 ```
 
 Then in order to let docker show graphical application to your X server you have to add necessary permissions (run these commands when image is running). If you want to know more I recommend to check [ROS docker wiki](http://wiki.ros.org/docker/Tutorials/GUI).
