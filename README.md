@@ -2,6 +2,8 @@
 Docker image for building https://github.com/pawel-jakubowski/coverage-search
 
 ## How to build this image
+Basically you do not have to build this image as latest version should be always available on Docker Hub - [pjakubowski/coverage-search](https://hub.docker.com/r/pjakubowski/coverage-search). When you try to run docker container with image name `pjakubowski/coverage-search` docker should download it from its' Hub.
+
 Download this repo and build docker image with the following commands:
 ```bash
 git clone https://github.com/pawel-jakubowski/coverage-search-docker.git
