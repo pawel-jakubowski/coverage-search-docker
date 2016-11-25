@@ -64,3 +64,6 @@ To run experiment just execute proper make target
 ```bash
 make experiment_random
 ```
+
+## What next?
+For more informations about compiling and executing experiments please refer to [coverage-search](https://https://github.com/pawel-jakubowski/coverage-search) repository.
