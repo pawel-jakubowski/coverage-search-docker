@@ -34,18 +34,18 @@ docker run -i $containerId
 ```
 
 You can check your running container id with a command
-```
+```bash
 docker ps
 ```
 
 ### Compiling the source
 When you go into container you will be placed inside `coverage-search/build` directory.
-```
+```bash
 root@ea1360bf0a5c:/home/pjakubow/coverage-search/build#
 ```
 
 From that you can execute building command
-```
+```bash
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make all
 ```
@@ -54,11 +54,11 @@ make all
 All experiments are prepared as make targets that build & run an experiment.
 
 You can list all available experiments with a command
-```
+```bash
 make help | grep experiment
 ```
 
 To run experiment just execute proper make target
-```
+```bash
 make experiment_random
 ```
