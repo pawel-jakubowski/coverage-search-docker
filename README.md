@@ -66,4 +66,4 @@ make experiment_random
 ```
 
 ## What next?
-For more informations about compiling and executing experiments please refer to [coverage-search](https://https://github.com/pawel-jakubowski/coverage-search) repository.
+For more informations about compiling and executing experiments please refer to [coverage-search](https://github.com/pawel-jakubowski/coverage-search) repository.
