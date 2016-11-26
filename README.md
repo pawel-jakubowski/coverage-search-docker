@@ -46,6 +46,11 @@ When you go into container you will be placed inside `coverage-search/build` dir
 root@ea1360bf0a5c:/home/pjakubow/coverage-search/build#
 ```
 
+Before compiling you probably want to update repository. Just call
+```
+git pull
+```
+
 From that you can execute building command
 ```bash
 cmake -DCMAKE_BUILD_TYPE=Release ..
